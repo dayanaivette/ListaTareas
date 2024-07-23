@@ -154,5 +154,8 @@ main {
   }
 
   h2 {
-    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Aptos Display";
+    justify-content: center;
+    color: #ffffff;
   }
