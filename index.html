@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lista de tareas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css'  href='CSS/style.css'>
+    <script src='/JS/javaScript.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <div class="container">
+        <div class="headerTitle">
+            <h1>
+                Lista de tareas
+            </h1>
+        </div>
+        <div class="containerInput">
+            <div class="styledInputs">
+                <div class="styleWrapper">
+                    <p class="title">Tarea</p>
+                    <input type="text" id="title" class="input" placeholder="Ingresa tu tarea">
+                </div>
+                <div class="styleWrapper">
+                    <p class="title">Fecha</p>
+                <input type="date" id="date" class="input" >
+                </div>
+            </div>
+            <button class="button" onclick={addTask()}>Agregar</button>
+            
+        </div>
+        <div class="containerCard">
+           <main>
+
+           </main>
+        </div>
+    </div>
+</body>
+</html>

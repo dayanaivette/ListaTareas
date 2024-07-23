@@ -1,0 +1,158 @@
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headerTitle{
+    margin-top: 10px;
+    font-family: "Aptos";
+    display: flex;
+    height: 50px;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    color: #f7efef;
+    background-color: #ee83af;
+    border-radius: 7px;
+}
+
+body {
+    background-color: #f8afd8;
+    justify-content: center;
+}
+
+
+.containerInput{
+   
+    @media screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 140px;
+        align-items: center;
+        gap: 10px;
+        width: 98%; 
+      }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 20px;
+        height: 100px;
+        align-items: center;
+        width: 98%;
+        gap: 40px;
+      }
+      @media screen and (min-width: 1025px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 100px;
+        align-items: center;
+        width: 98%;
+        gap: 40px;
+      }
+  
+}
+.styledInputs{
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+ height: 59px;
+ @media screen and (max-width: 767px) {
+    height: 80px;  
+ }
+}
+.styleWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    height: 90px;
+
+}
+.title{
+    margin-top: 0px;
+    display: flex;
+    font-size: 18px;
+    font-family: "Time New Roman";
+    color: #ffffff;
+}
+.input{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+.input::placeholder{
+    color: #000000;
+}
+
+.button{
+    background-color: #a25880;
+    height: 40px;
+    border: 2px solid #663b5b;
+    width: 20%;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color:  #442743;
+    color: #d4cbcb;
+}
+
+.containerCard {
+    margin-top: 30px;
+    min-height: 50vh;
+    width: 98%;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
+    grid-gap: 40px;
+    
+  }
+
+  .cardWrapper{
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 150px;
+    height: 160px;
+    background-color: #a25880;
+    border-radius: 20px;
+    border: 2px solid #a25880;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+  }
+
+  .deleteButton {
+    font-size: 17px;
+    margin-left: 69%;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.907);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid rgb(255, 0, 0, 0.907);
+    cursor: pointer;
+  }
+
+  h2 {
+    color: rgb(255, 255, 255);
+  }
